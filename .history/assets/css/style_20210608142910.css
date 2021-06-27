@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+:root{
+    --color-main: #1a202e;
+}
+
+*{
+    font-family: 'Poppins', sans-serif ;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.sidebar{
+    width: 280px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    padding: 1rem;
+    background: var(--color-main);
+    color: #fff;
+}
+
+.sidebar__brand{
+    height: 100px;
+}
+
+.brand__flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand__flex img{
+    border-radius: 50%;
+}
+
+.brand__icons span{
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+}
+
+.sidebar__user{
+    margin: 1rem 0rem;
+    text-align: center;
+}
+
+.sidebar__user img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 2px solid #efefef;
+    border-top: 2px solid transparent;
+    border-left: 2px solid #efefef;
+    border-right: 2px solid #efefef;
+    border-bottom: 2px solid #efefef;
+}
+
+.sidebar__user h3{
+    font-size: 1rem;
+}
+
+.sidebar__user span{
+    font-size: .8rem;
+}
+
+.sidebar__menu {
+    margin-top: 2rem;
+}
+
+.menu-head {
+    text-transform: uppercase;
+    color: #8da2fb;
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.main__content{
+    margin-left: 280px;
+}
